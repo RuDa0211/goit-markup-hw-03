@@ -23,9 +23,9 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="header-nav">
-          <a href="./index.html" class="logo">
+          <a href="./index.html" class="logo header-logo">
             Web<span class="dark">Studio</span>
           </a>
           <ul class="nav-list">
@@ -57,15 +57,15 @@
       </div>
     </header>
     <main>
-      <section class="solutions" id="solutions">
+      <section class="section solutions" id="solutions">
         <div class="container">
           <h1 class="solutions-title">Effective Solutions for Your Business</h1>
           <button type="button" class="button">Order Service</button>
         </div>
       </section>
-      <section class="priority" id="priority">
+      <section class="section priority" id="priority">
         <div class="container">
-          <h2 hidden>content</h2>
+          <h2 class="visually-hidden"></h2>
           <ul class="priority-list">
             <li class="priority-item">
               <h3 class="priority-subtitle">Strategy</h3>
@@ -98,7 +98,7 @@
           </ul>
         </div>
       </section>
-      <section class="team" id="team">
+      <section class="section team" id="team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
@@ -110,8 +110,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-subtitle">Mark Guerrero</h3>
-              <p class="team-text">Product Designer</p>
+              <div class="team-name">
+                <h3 class="team-subtitle">Mark Guerrero</h3>
+                <p class="team-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -121,8 +123,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-subtitle">Tom Ford</h3>
-              <p class="team-text">Frontend Developer</p>
+              <div class="team-name">
+                <h3 class="team-subtitle">Tom Ford</h3>
+                <p class="team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -132,8 +136,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-subtitle">Camila Garcia</h3>
-              <p class="team-text">Marketing</p>
+              <div class="team-name">
+                <h3 class="team-subtitle">Camila Garcia</h3>
+                <p class="team-text">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -143,13 +149,15 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-subtitle">Daniel Wilson</h3>
-              <p class="team-text">UI Designer</p>
+              <div class="team-name">
+                <h3 class="team-subtitle">Daniel Wilson</h3>
+                <p class="team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
-      <section class="portfolio" id="portfolio">
+      <section class="section portfolio" id="portfolio">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -161,8 +169,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-subtitle">Banking App</h3>
-              <p class="portfolio-text">App</p>
+              <div class="portfolio-group">
+                <h3 class="portfolio-subtitle">Banking App</h3>
+                <p class="portfolio-text">App</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -172,8 +182,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-subtitle">Cashless Payment</h3>
-              <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-group">
+                <h3 class="portfolio-subtitle">Cashless Payment</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -183,8 +195,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-subtitle">Meditation App</h3>
-              <p class="portfolio-text">App</p>
+              <div class="portfolio-group">
+                <h3 class="portfolio-subtitle">Meditation App</h3>
+                <p class="portfolio-text">App</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -194,8 +208,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-subtitle">Taxi Service</h3>
-              <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-group">
+                <h3 class="portfolio-subtitle">Taxi Service</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -205,8 +221,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-subtitle">Screen Illustrations</h3>
-              <p class="portfolio-text">Design</p>
+              <div class="portfolio-group">
+                <h3 class="portfolio-subtitle">Screen Illustrations</h3>
+                <p class="portfolio-text">Design</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -216,8 +234,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-subtitle">Online Courses</h3>
-              <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-group">
+                <h3 class="portfolio-subtitle">Online Courses</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -225,7 +245,7 @@
     </main>
     <footer class="page-footer">
       <div class="container">
-        <a href="./index.html" class="logo">
+        <a href="./index.html" class="logo footer-logo">
           Web<span class="light">Studio</span>
         </a>
         <p class="page-footer-text">
