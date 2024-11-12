@@ -197,7 +197,7 @@ display: flex;
 }
 
 .priority-item {
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px) / 4);
 
 }
 
@@ -243,8 +243,7 @@ background-color: #f4f4fd;
 .team-item {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
-    width: 264px;
-    height: 380px;
+    width: calc((100% - 72) / 3);
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
@@ -254,7 +253,7 @@ background-color: #f4f4fd;
 }
 
 .team-name{
-    padding: 32px 0;
+    padding: 32px 0 32px 0;
 }
 
 .team-subtitle {
@@ -265,7 +264,6 @@ background-color: #f4f4fd;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    margin-top: 32px;
 }
 
 .team-text{
